@@ -28,6 +28,7 @@ export const installPrimevueComponents = (app: App) => {
     app.component('FileUpload', FileUpload)
     app.component('InputNumber', InputNumber)
     app.component('Textarea', Textarea)
+    // app.component('FloatButton', FloatButton)
     app.use(ToastService)
     app.use(ConfirmationService)
 }

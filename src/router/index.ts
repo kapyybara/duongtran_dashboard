@@ -4,6 +4,8 @@ import Dashboard from '../layouts/Dashboard.vue';
 import ProductList from '../view/product/ProductList/index.vue';
 import OrderList from '../view/order/OrderList.vue';
 import Settings from '../view/settings/index.vue';
+import Login from '../view/auth/login/index.vue';
+
 const routes = [
   {
     path: '/',
@@ -22,6 +24,10 @@ const routes = [
         component: Settings
       }
     ]
+  },
+  {
+    path: '/auth/login',
+    component: Login
   }
 ];
 
